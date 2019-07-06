@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  background: black; /* todo no usar 'black '    */
+  color: white;
+  line-height: 10px;
+  padding-left: 30px;
+}
+header img {
+  height: 20px;
+  margin-right: 5px;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* padding: maybe? */
+  /* max-width:800px; */
+}
+footer {
+  display: flex;
+  /* height: 30px; */
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  line-height: 10px;
+  align-items: center;
+}
+footer img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* ###################### Section specific styles */
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  border-bottom: 1px solid #ddd;
+  /* todo: no usar black puros */
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.section1 > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  max-width: 600px;
+  /* border: 1px solid tomato; */
+}
+.section1 > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 > div > div:first-of-type {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.section1 > div > div:last-of-type {
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+}
+
+.section2 article {
+  margin: 20px;
+}
+.section2 article div {
+  /* text-align: center; */
+  /* line-height: 15px; */
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+}
+.section article img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+.section4 {
+  font-size: 40px;
+}
+.section5 {
+  height: 300px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.section5 > div {
+  text-align: center;
+  font-size: 50px;
+}
+.section5 > div p {
+  margin: 0;
+}
+button {
+  background-color: #27b776;
+  border: 0;
+  padding: 2px 30px;
+  color: white;
+}
+
+img {
+  height: 100px;
+}
+figure {
+  text-align: center;
+}
