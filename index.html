@@ -6,13 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-      body{
+    .flex-container{
+        display: flex;
+        background-color: dodgerblue;
+        width: max-content;
+        margin: auto;
+        }
+    .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .flex-container2{
+        display: flex;
+        background-color: dodgerblue;
+        width: max-content;
+        margin: auto;
+        }
+    .section2{
+        border: 50px solid white;
+    }
+    
+    .flex-container2 > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    .section3{
+        border: 50px solid white;
+    }
+    .flex-container3{
+        display: flex;
+        background-color: dodgerblue;
+        width: max-content;
+        margin: auto;
+        }
+    .flex-container3 > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        width: 250px;
+    }
+    
+    .imagefc3{
+        height: 150px;
+        width: 150px;    
+    }
+
+    .section4{
+        border: 50px solid white;
+    }
+    .flex-container4{
+        display: flex;
+        background-color: dodgerblue;
+        width: max-content;
+        margin: auto;
+        }
+    .flex-container4 > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        width: auto;
+
+       body{
           min-height: 100vh;
           display: flex;
           flex-direction: column;
           margin: 0;
       }
-  
+      h1{text-align: center;
+      }
       header,
       main,
       footer {
@@ -33,14 +101,76 @@
 
     <header>esto es un header</header>
     <main>
-      <section class="section1">
-        <div>caja 1</div>
-        <div> CAJA 2</div>
+        <h1>BEDU PRACTICA FLEX</h1>
+        <section class="section1">
+            <div class="flex-container">
+                <div>informacion general</div>
+                <div>primer llamado a la accion</div>
+                        
+            </div>
       </section>
         
-      <section class="section2"></section>
-      <section class="section3"></section>
-      <section class="section4"></section>
+      <section class="section2">
+          <div class="flex-container2">
+              <div>Articulo 1
+                  <article>
+                      <p>descripcion 1</p>
+                      <p>descripcion 2</p>
+                      <p>descricoipn 3</p>
+                  </article>
+              </div>
+              <div>Articulo 2
+                    <article>
+                            <p>descripcion 1</p>
+                            <p>descripcion 2</p>
+                            <p>descricoipn 3</p>
+                        </article>
+              </div>
+              <div>Articulo 3
+                    <article>
+                            <p>descripcion 1</p>
+                            <p>descripcion 2</p>
+                            <p>descricoipn 3</p>
+                        </article>
+              </div>
+              
+          </div>
+        </section>
+      <section class="section3">
+            <div class="flex-container3">
+                    <div>Articulo 1
+                        <article>
+                            <img class="imagefc3" src="../tarea-flex/avatar1.png" alt="falta imagen1">
+                            <p>ejemplo de texto insertado para pruebas de media</p>
+                            
+                        </article>
+                    </div>
+                    <div>Articulo 2
+                          <article>
+                                <img class="imagefc3" src="../tarea-flex/avatar2.png" alt="falta imagen1">
+                                <p>ejemplo de texto insertado para pruebas de media</p>
+                              </article>
+                    </div>
+                    <div>Articulo 3
+                          <article>
+                                <img class="imagefc3" src="../tarea-flex/avatar3.png" alt="falta imagen1">
+                                <p>ejemplo de texto insertado para pruebas de media</p>
+                              </article>
+                    </div>
+                    
+                </div>
+      </section>
+      <section class="section4">
+            <div class="flex-container4">
+                    <div>
+                        <article>
+                            <p>$$$$oferta solo por hoy$$$$</p>
+                            <iframe width="300" height="154" src="https://w2.countingdownto.com/2564116" frameborder="0"></iframe>
+                        </article>
+                    </div>
+
+
+      </section>
       <section class="section5"></section>
     </main>
     <footer>bienvenidos</footer>
